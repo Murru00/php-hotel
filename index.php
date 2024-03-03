@@ -1,4 +1,10 @@
+<?php
 
+include_once __DIR__ ."/park.php";
+    
+    
+    
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +32,7 @@
                             <?= $filter_vote ? 'checked' : '' ?>>
                     </div>
 
-                    <button class="btn btn-primary mx-2">submit</button>
+                    <button class="btn btn-primary mx-2">Invia</button>
                     <input type="reset" class="btn btn-warning mx-2" value="reset"> </input>
 
 
